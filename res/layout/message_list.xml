@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true" >
+
+    <ImageView
+        android:id="@+id/pushCloudIconSponsorActivity"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pushcloud_main"
+        android:contentDescription="@string/app_name" />
+
+    <ImageButton
+        android:id="@+id/ib_delete_all_messages"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/rl_search_sponsor"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/selector_delete_all_messages"
+        android:contentDescription="@string/app_name" />
+
+    <RelativeLayout
+        android:id="@+id/rl_search_sponsor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pushCloudIconSponsorActivity"
+        android:background="@drawable/frame_sponsor_activity_background"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp" >
+
+        <TextView
+            android:id="@+id/tv_search_sponsor_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:text="@string/message_list_title_sponsor"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/iv_search_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_search_sponsor_title"
+            android:background="@drawable/search_sponsor_icon"
+            android:contentDescription="@string/app_name" />
+
+        <EditText
+            android:id="@+id/et_filter_message_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_search_sponsor_title"
+            android:layout_alignTop="@+id/tv_search_sponsor_title"
+            android:layout_toLeftOf="@+id/ib_clear_edittext"
+            android:layout_toRightOf="@+id/iv_search_icon"
+            android:background="@drawable/rounded_edittext"
+            android:hint="@string/sponsor_search_hint"
+            android:paddingLeft="5dp" />
+
+        <ImageButton
+            android:id="@+id/ib_clear_edittext"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/selector_clear_edittext"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_push_messages"
+        android:layout_width="match_parent"
+        android:layout_height="425dp"
+        android:layout_below="@+id/rl_search_sponsor"
+        android:listSelector="@drawable/item_selector_sponsor"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tv_no_push_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_messages_yet"
+        android:textSize="22sp" />
+
+</RelativeLayout>

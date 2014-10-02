@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PushCloud</string>
+    
+    <!-- PushCloud -->
+    <string name="no_internet_connection">You have no Internet access.</string>
+    <string name="internet_connection_error">Internet Connection Error!</string>
+    <string name="please_connect_to_internet">Please connect to a working Internet connection.</string>
+    <string name="wait">Please wait..</string>
+    
+    
+    <!-- MainActivity -->
+    <string name="problems_with_server">Problems with server. Try later!</string>
+    <string name="already_registered">Mobile already in database. No need for registering.</string>
+    <string name="getting_data_from_server">Downloading data from server</string>
+    <string name="server_registering">Try (%1$d/%2$d) to register on PushCloud Server!</string>
+    <string name="server_register_error">Could not register device on PushCloud Server. Try again later.</string>
+    <string name="device_registered">You have successfully registered on PushCloudServer!</string>
+    <string name="device_not_compatible">Your device is not compatible with this application.</string>
+    
+    <!-- SponsorActivity -->
+    <string name="sponsor_list_title">Sponsor list</string>
+    <string name="no_sponsors_available">There are no sponsors on PushCloud server or the server is unavailable!</string>
+    <string name="server_connection_timedout">Server connection timed out. Try again later!</string>
+    <string name="checking_sponsors_web">Checking for sponsors..</string>
+	<string name="checking_sponsor_status">Checking sponsor status on PushCloud server..</string>    
+    <string name="long_click_on_list_item">Long click on item to un/subscribe to sponsor!</string>
+    <string name="subscribe_success">You have successfully subscribed to this sponsor!</string>
+    <string name="unsubscribe_success">You have successfully unsubscribed to this sponsor!</string>
+    <string name="sponsor_not_exist">This sponsor does not exist. Refresh list!</string>
+    <string name="unknown_error">Some error occurred. Try again.</string>
+
+    
+	
+    <!-- MessagesActivity -->
+    <string name="no_messages_yet">No messages.</string>
+    <string name="message_list_title_sponsor">Sponsor</string> 
+    <string name="sponsor_search_hint">Search by sponsor</string>
+
+</resources>

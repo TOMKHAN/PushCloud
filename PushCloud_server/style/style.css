@@ -1,0 +1,159 @@
+
+body {
+    background-image: url('../site_graphic/background_main.png');
+
+}
+
+.body {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.logoPlace, .sponsorName , .inputAndButton, .selectorToDeleteSponsor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sponsorName {
+    font-size: 28px;
+}
+
+.hr_style{
+    color: #078aea;
+}
+
+.txt_message{
+    width:45%;
+    height:150px;
+}
+
+.success_message, .fail_message{
+    background-color:#79bbff;
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    border-top-left-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    border-top-right-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    border-bottom-right-radius:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    border-bottom-left-radius:6px;
+    width:50%;
+    margin-top:5px;
+    padding: 2px 2px 2px 2px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img_loader_div{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.img_loader{
+    width:5%;
+    height5%;
+}
+
+
+
+.span_success_message{	
+    color:#ffffff;
+}
+
+.span_fail_message{	
+    color:#ff0000;
+}
+
+@media only screen and (min-width : 780px) and (max-width : 1200px){
+    .body {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .logoPlace img {
+        width:60%;
+        height:60%;
+    }
+
+    .txt_message{
+        width:45%;
+        height:150px;
+    }
+}
+
+@media only screen and (min-width : 40px) and (max-width : 780px){
+    .body {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .logoPlace img {
+        width:50%;
+        height:30%;
+    }
+
+    .txt_message{
+        width:90%;
+        height:150px;
+    }
+
+
+}
+
+
+
+/* css style for button */
+
+.btn_send {
+    -moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+    box-shadow:inset 0px 1px 0px 0px #cae3fc;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+    background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+    background-color:#79bbff;
+    -webkit-border-top-left-radius:6px;
+    -moz-border-radius-topleft:6px;
+    border-top-left-radius:6px;
+    -webkit-border-top-right-radius:6px;
+    -moz-border-radius-topright:6px;
+    border-top-right-radius:6px;
+    -webkit-border-bottom-right-radius:6px;
+    -moz-border-radius-bottomright:6px;
+    border-bottom-right-radius:6px;
+    -webkit-border-bottom-left-radius:6px;
+    -moz-border-radius-bottomleft:6px;
+    border-bottom-left-radius:6px;
+    text-indent:0;
+    border:1px solid #469df5;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:25px;
+    width:70px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #287ace;
+}
+.btn_send:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+    background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+    background-color:#4197ee;
+}.btn_send:active {
+    position:relative;
+    top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+

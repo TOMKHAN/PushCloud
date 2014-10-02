@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/sponsor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:maxWidth="180dp"
+        android:paddingLeft="3dp"
+        android:paddingTop="3dp"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:maxWidth="300dp"
+        android:paddingLeft="3dp"
+        android:layout_below="@+id/sponsor_name"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/vrijeme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="3dp"
+        android:paddingTop="3dp"
+        android:textColor="#ffff00" />
+
+</RelativeLayout>
